@@ -1,0 +1,37 @@
+html, body{
+    margin: 0;
+    text-align: center;
+}
+
+#imagem_fundo{
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    height: 100%;
+    padding: 10px;
+}
+
+#titulo{
+    color: rgb(239, 245, 245);
+    padding-top: 15%;
+    margin: 0;
+    font-size: 450%;
+}
+
+#subtitulo{
+    color: white;
+    font-size:150%;
+    font-weight: 100;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-top: 3px white solid;    
+}
+
+#acao{
+    color: orange;
+    border: 2px white solid;
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    text-decoration:nome;
