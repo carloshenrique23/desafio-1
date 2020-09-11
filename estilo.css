@@ -1,0 +1,187 @@
+
+    html, body{
+        margin: 0;
+        font-family: 'Roboto';
+    }
+    h1, h2, h3{
+        margin-top: 8px;;
+    }
+
+    
+    #imagem_fundo{
+        background-image: url(img/fonte.jpg);
+        background-size: cover;
+        height: 100%;
+        padding: 10px;
+       
+    }
+    header {
+       background-color: rgb(144, 238, 160);
+       color: white;
+       height: 60px;
+       width: 100%;
+       position: fixed;
+       z-index: 50;
+    }
+
+    #menu{
+        float: right;
+        margin-top: 0;
+        margin-right: 30px;
+        margin-bottom: 0;
+        list-style: none;
+    }
+    #logo{
+        
+    width: 50px;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 13px;
+    }
+    li{
+        float: right;
+        padding: 20px 20px 22px 20px;
+    }
+    li:hover{
+        background-color: greenyellow;
+        border-radius: 23px;
+    }
+    li a{
+        text-decoration: none;
+        color: white;
+    }
+
+    #titulo{
+       color: black;
+       text-shadow: 2px 2px 8px #FFFFFF;
+       text-transform: uppercase;
+       letter-spacing: 5px;
+       padding-top: 12%;
+       margin: 0;
+       font-size: 550%;
+       background-position: center;
+    }
+    
+    #subtitulo{
+        color: white;
+        text-shadow: 2px 2px 4px #000000;
+        line-height: 1.5;
+        font-size: 150%;
+        font-weight: 100;
+        margin-left: 25%;
+        margin-right: 25%;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        border-top: 3px white solid;   
+    }
+    
+    #acao{
+        color: rgb(204, 240, 241);
+        border: 1px rgb(253, 252, 252) solid;
+        border-radius: 20px;
+        padding: 10px 20px 10px 20px;
+        font-size: 20px;
+        text-decoration:nome;
+        margin-left: 45%;
+        
+    }
+        
+    .icone{
+        width: 55px;
+        padding: 20px;
+    }
+    
+    section{
+        float: left;
+        padding: 20px;
+    }
+    
+    .imgeco{
+        width: 90%;
+        height: 50%;
+    }
+    #acao:hover{
+        background-color: black;
+        font-weight: 545;
+        
+    }
+    #projeto.destaque{
+        background:rgb(216, 216, 236);  
+        padding: 20px;
+    }
+    
+    .imgdestaque{
+        background-color: greenyellow;
+        background-size: cover;
+        background-attachment: fixed;
+        
+    }
+    
+    .icone:hover{
+        background-color: rgb(236, 229, 229);
+        border-radius: 23px;
+    }
+    
+    img:hover{
+        transform: scale(1.022);
+    }
+    
+    #prejudicaçao{
+        background:rgb(216, 216, 236);  
+        padding: 20px;
+
+    }
+    .coluna{
+        float: left;
+        padding: 0 5%;
+        position: relative; 
+    }
+    .dois {
+        width: 40%;
+    }  
+    .tres{ 
+        width: 23%;
+    }
+    .sobre{
+        width: 100%;
+    }
+    .centralizado{
+        text-align: center;
+        margin:auto
+    }
+    footer{
+        background-color: rgb(144, 238, 160);
+    color: white;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+/*Vai observar o tamanho da tela, que está consumindo o site, e fazer as adaptações de acordo com as especificações.*/
+@media all and (max-width: 768px){
+    #menu{
+        visibility: hidden;
+    }
+
+    .coluna, .dois, .tres, .quatro{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+
+    #logo{
+        text-align: center;
+    }
+
+    #logo img{
+        margin-left: 0;
+        position: relative;
+    }
+
+    #titulo{
+        padding-top: 15.5%;
+    }
+    .contato{
+        padding: 10px 10px 10px 10px;
+    }
